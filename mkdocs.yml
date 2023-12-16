@@ -1,0 +1,40 @@
+site_name: Jelajah Nusantara API
+site_url: https://buryne.github.io/docs-api-janu/
+theme:
+    name: material
+nav:
+    - Home: index.md
+    - About: about.md
+    - Posts:
+          - "GET": posts/get-post.md
+          - "GET BY ID": posts/get-post-id.md
+          - "POST": posts/post-post.md
+          - "PATCH": posts/update-post.md
+          - "DELETE": posts/delete-post.md
+    - Users:
+          - "GET": users/get-user.md
+          - "GET BY ID": users/get-user-id.md
+
+    - Auth:
+          - "GET": auth/login.md
+
+markdown_extensions:
+    - pymdownx.highlight:
+          anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - admonition
+    - pymdownx.arithmatex:
+          generic: true
+    - footnotes
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.mark
+    - attr_list
+    - pymdownx.emoji:
+          emoji_index: !!python/name:materialx.emoji.twemoji
+          emoji_generator: !!python/name:materialx.emoji.to_svg
+
+edit_uri_template: "blob/main/docs/{path}"
+copyright: |
+    &copy; 2023 <a href="https://github.com/buryne"  target="_blank" rel="noopener">Team Cloud (Me)</a>
