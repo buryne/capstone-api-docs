@@ -1,20 +1,18 @@
-# **GET POST**
+# **GET POST QUERY**
 
-Endpoint get all for posts.
+Endpoint get all for posts. query harus `lowercase`!!>
 
 #### Endpoint
 
 `GET /api/posts`
 
-
 #### Query Params
 
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| `title` | `string` | Filter posts by title. |
+| Name       | Type     | Description               |
+| ---------- | -------- | ------------------------- |
+| `title`    | `string` | Filter posts by title.    |
 | `location` | `string` | Filter posts by location. |
-| `tags` | `string` | Filter posts by tags. |
-
+| `tags`     | `string` | Filter posts by tags.     |
 
 #### Request
 

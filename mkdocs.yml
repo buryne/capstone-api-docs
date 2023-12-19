@@ -12,11 +12,11 @@ nav:
           - "POST": posts/post-post.md
           - "PATCH": posts/update-post.md
           - "DELETE": posts/delete-post.md
-          - "QEURY": posts/query-post.md
+          - "QUERY": posts/query-post.md
     - Users:
           - "GET": users/get-user.md
           - "GET BY ID": users/get-user-id.md
-          - "QEURY": users/query-user.md
+          - "QUERY": users/query-user.md
 
     - Auth:
           - "GET": auth/login.md

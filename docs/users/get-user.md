@@ -39,7 +39,7 @@ No request body is required.
     -   Body:
         ```json
         {
-            "message": "string",
+            "message": "server error",
             "error": "string"
         }
         ```
@@ -52,24 +52,26 @@ No request body is required.
 GET /api/users
 
 ```
+
 **Response:**
 
 ```json
 {
-  "users": [
-    {
-      "uid": "118235995435385156808",
-      "displayName": "rafihamadd",
-      "email": "rafihamadd@gmail.com",
-      "photoURL": "https://lh3.googleusercontent.com/a/ACg8ocI_gZFdmdWJ_TG7OWLXtWKcB-qmxIBUmnHlDd3Db4XRAg=s96-c",
-      "provider": "google",
-      "verified": true,
-      "posts": [
-        "07r719qaQoFIb3L2T5LN",
-        "BeMkCHaJuKMPapaJKEvJ",
-      ]
-    }
-  ]
+    "users": [
+        {
+            "id": "utWnXnhpjPEINAuBjQVT",
+            "photoURL": "https://lh3.googleusercontent.com/a/ACg8ocI_gZFdmdWJ_TG7OWLXtWKcB-qmxIBUmnHlDd3Db4XRAg=s96-c",
+            "provider": "google",
+            "displayName": "shigure yukikaze",
+            "verified": true,
+            "email": "shigurekawai@gmail.com",
+            "posts": [
+                "AQogY1wde8NfzlbHOLJP",
+                "Bk0aoG76PfdOmPHYmw69",
+                "qYyYK388dK5XDA473AfL"
+            ]
+        }
+    ]
 }
 ```
 
@@ -81,4 +83,4 @@ GET /api/users
     "error": "Error message details"
 }
 ```
-````
+
