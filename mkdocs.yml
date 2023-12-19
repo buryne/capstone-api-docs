@@ -5,15 +5,18 @@ theme:
 nav:
     - Home: index.md
     - About: about.md
+    - Web: web.md
     - Posts:
           - "GET": posts/get-post.md
           - "GET BY ID": posts/get-post-id.md
           - "POST": posts/post-post.md
           - "PATCH": posts/update-post.md
           - "DELETE": posts/delete-post.md
+          - "QEURY": posts/query-post.md
     - Users:
           - "GET": users/get-user.md
           - "GET BY ID": users/get-user-id.md
+          - "QEURY": users/query-user.md
 
     - Auth:
           - "GET": auth/login.md

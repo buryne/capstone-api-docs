@@ -2,15 +2,31 @@
 
 In this documentation you will find all the information you need to use the [Jelajah Nusantara API](<[#](https://api-beta-testing.uc.r.appspot.com/)>).
 
-Endpoint
+Jika ingin melihat versi web dari aplikasi ini, silahkan kunjungi [Jelajah Nusantara](<[#](https://capstone-project-api-ch2-ps352.et.r.appspot.com/)>).
+
+```bash
+ https://capstone-project-api-ch2-ps352.et.r.appspot.com/web
+```
+
+
+## Base URL
+
+
+Endpoint Base URL: `Beta Testing`
 
 ```bash
 https://api-beta-testing.uc.r.appspot.com/
+````
+
+Endpoint Base URL: `Production`
+
+```bash
+https://capstone-project-api-ch2-ps352.et.r.appspot.com/
 ```
 
 ## Auth
 
-this page [auth](https://buryne.github.io/capstone-api-docs/auth/login/)
+This page [auth](https://buryne.github.io/capstone-api-docs/auth/login/)
 
 ## Endpoint list post
 
