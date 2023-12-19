@@ -2,21 +2,19 @@
 
 In this documentation you will find all the information you need to use the [Jelajah Nusantara API](<[#](https://api-beta-testing.uc.r.appspot.com/)>).
 
-Jika ingin melihat versi web dari aplikasi ini, silahkan kunjungi [Jelajah Nusantara](<[#](https://capstone-project-api-ch2-ps352.et.r.appspot.com/)>).
+Jika ingin melihat versi web dari aplikasi ini, silahkan kunjungi [Jelajah Nusantara](https://capstone-project-api-ch2-ps352.et.r.appspot.com/web).
 
 ```bash
  https://capstone-project-api-ch2-ps352.et.r.appspot.com/web
 ```
 
-
 ## Base URL
-
 
 Endpoint Base URL: `Beta Testing`
 
 ```bash
 https://api-beta-testing.uc.r.appspot.com/
-````
+```
 
 Endpoint Base URL: `Production`
 
